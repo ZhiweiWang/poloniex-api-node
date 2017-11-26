@@ -157,9 +157,9 @@ poloniex = new Poloniex('myKey', 'mySecret', { socketTimeout: 130000 });
 
 #### Available options
 
-* `socketTimeout` - the number of milliseconds to wait for the server to send the response before aborting the request 
-* `keepAlive` - keep open and reuse the underlying TCP connection
-* `proxy` - proxy to be used for requests
+* `socketTimeout` - the number of milliseconds to wait for the server to send the response before aborting the request (REST API)
+* `keepAlive` - keep open and reuse the underlying TCP connection (REST API)
+* `proxy` - proxy to be used for requests (REST API)
  
 
 ## REST API
@@ -653,10 +653,14 @@ See detailed [Changelog](CHANGELOG.md)
 
 * [dutu](https://github.com/dutu) (<dutu@protonmail.com>)
 * [julesGoullee](https://github.com/julesGoullee) (<julesgoullee@gmail.com>)
+* [kevflynn](https://github.com/kevflynn) ([Kevin](http://www.kevflynn.com))
+* [Denis Bezrukov](https://github.com/anthrax63)
 * [Wallison Santos](https://github.com/wallybh) (<wallison@outlook.com>)
 * [epdev](https://github.com/epdev)
 * [BarnumD](https://github.com/BarnumD)
 * [Robert Valmassoi](https://github.com/valmassoi) (<rvalmassoi@protonmail.com>)
+* [zymnytskiy](https://github.com/zymnytskiy)
+* [zunderbolt](https://github.com/zunderbolt)
 
 # License
 
