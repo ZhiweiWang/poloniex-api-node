@@ -4,6 +4,15 @@ All notable changes to this module are documented in this file.
 
 poloniex-api-node module adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.8.2] - 2018-02-02
+- Fixed: WebSocket keepAlive occasionally throws error 
+
+## [1.8.1] - 2018-01-29
+- Fixed: not possible to specify `paymentId`for method `withdraw`
+
+## [1.8.0] - 2018-01-25
+- Added: ability to set specific http.Agent for REST API calls and WebSocket connection (#53)
+
 ## [1.7.0] - 2018-01-09
 - Changed: Examples updated
 - Added: ability to pass in a nonce generating function
